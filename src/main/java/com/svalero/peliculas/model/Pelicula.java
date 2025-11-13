@@ -1,8 +1,9 @@
 package com.svalero.peliculas.model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Pelicula {
+public class Pelicula implements Serializable {
 
     private String nombre;
     private String argumento;
